@@ -208,25 +208,3 @@ trained_model, lossList = train_model(model_ft, criterion_ft, optimizer_ft,
 
 # Save the trained model
 torch.save(trained_model.state_dict(), './model.pt')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
