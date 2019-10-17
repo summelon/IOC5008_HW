@@ -116,6 +116,3 @@ model_ft.eval()
 # Record predictions and write to csv file
 prediction_results = data_predict(model_ft, image_loader)
 csv_writer(image_names, prediction_results)
-
-
-
