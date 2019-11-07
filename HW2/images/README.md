@@ -1,1 +1,1 @@
-# Images will be saved here
+# Images will be saved in this folder.
