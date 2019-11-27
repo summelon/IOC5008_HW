@@ -1,0 +1,6 @@
+classes=10
+train=./data/SVHN_train.txt
+valid=./data/SVHN_val.txt
+names=data/SVHN.names
+backup=backup/
+eval=test
