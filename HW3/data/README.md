@@ -1,3 +1,3 @@
 - Folder for data file.(.data & .names)
-  - .data: configuratio  
+  - .data: configuration  
   - .names: classes label
