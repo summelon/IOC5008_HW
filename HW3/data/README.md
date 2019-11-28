@@ -8,7 +8,7 @@
     - images: images path
     - labels: label annotation .txt files
   
-
+```
 .
 ├── images
 │   ├── train
@@ -23,3 +23,4 @@
 └── SVHN_train.txt
 │   
 └── SVHN_val.txt
+```
