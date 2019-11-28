@@ -1,10 +1,10 @@
 # HW3
 
 ## Introduction
-    - Save your training & test images in `data` folder 
-    - Run `makeTxt.py` to produce label annotation .txt file
-    - Run `SVHN_train.py` to train your model. 
-    - Run `SVHN_detect.py` to test FPS or output .json prediction file.
+- Save your training & test images in `data` folder 
+- Run `makeTxt.py` to produce label annotation .txt file
+- Run `SVHN_train.py` to train your model. 
+- Run `SVHN_detect.py` to test FPS or output .json prediction file.
 
 ### `SVHN_train.py` command line argument:
 ```python=
@@ -51,6 +51,7 @@ parser.add_argument('--save-json', action='store_true', help='choose to save pre
 parser.add_argument('--inf-detail', action='store_true', help='choose to print inference detail')
 ```
 
+### Folder architecture
 ```
 .
 ├── cfg/
