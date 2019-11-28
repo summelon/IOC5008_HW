@@ -1,6 +1,12 @@
 # HW3
 
-## `SVHN_train.py` command line argument:
+## Introduction
+    - Save your training & test images in `data` folder 
+    - Run `makeTxt.py` to produce label annotation .txt file
+    - Run `SVHN_train.py` to train your model. 
+    - Run `SVHN_detect.py` to test FPS or output .json prediction file.
+
+### `SVHN_train.py` command line argument:
 ```python=
 parser.add_argument('--epochs', type=int, default=273) # effective bs = batch_size * accumulate = 16 * 4 = 64
 parser.add_argument('--batch-size', type=int, default=32)
@@ -27,7 +33,7 @@ parser.add_argument('--adam', action='store_true', help='use adam optimizer')
 parser.add_argument('--var', type=float, help='debug variable')
 ```
 
-## `SVHN_detect.py` command line argument:
+### `SVHN_detect.py` command line argument:
 ```python=
 parser.add_argument('--cfg', type=str, default='cfg/yolov3-tiny.cfg', help='cfg file path')
 parser.add_argument('--data', type=str, default='data/SVHN.data', help='coco.data file path')
