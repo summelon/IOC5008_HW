@@ -1,5 +1,25 @@
 # HW4
 
+# Environment preparation
+
+1. Clone this repository
+2. Install dependencies on your host or docker container
+  ```bash
+  pip3 install -r requirements.txt
+  ```
+3. Run setup from the repository root directory
+  ```bash
+  python3 setup.py install 
+  ```
+  
+4. Edit `Cococonfig` class in `train.py` according to your images size in dataset
+![](https://i.imgur.com/spXIDWE.png)
+
+5. Run `train.py` to train/evaluate your model 
+  ```bash
+  
+  ```
+
 ```shell=
 ├── logs
 │   └── README.md
