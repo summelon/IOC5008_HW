@@ -13,7 +13,7 @@
   ```
   
 4. Edit `Cococonfig` class in `train.py` according to your images size in dataset
-![](https://i.imgur.com/spXIDWE.png =200x300)
+![](https://i.imgur.com/spXIDWE.png)
 
 
 5. Run `train.py` to train/evaluate your model 
